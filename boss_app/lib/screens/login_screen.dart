@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
     // Mock API delay
     await Future.delayed(const Duration(seconds: 1));
 
-    if (_passwordController.text == 'boss123') { // Simple mock password
+    if (_passwordController.text == '8890') { // Master password
       if (!mounted) return;
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (_) => const MainDashboard()),

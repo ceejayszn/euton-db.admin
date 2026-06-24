@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dashboard_overview.dart';
+import 'logs_screen.dart';
 import 'login_screen.dart';
 
 class MainDashboard extends StatefulWidget {
@@ -15,7 +16,7 @@ class _MainDashboardState extends State<MainDashboard> {
   final List<Widget> _pages = [
     const DashboardOverview(),
     const Center(child: Text('Analytics (Coming Soon)')),
-    const Center(child: Text('Activity Logs (Coming Soon)')),
+    const LogsScreen(),
     const Center(child: Text('System Health (Coming Soon)')),
     const Center(child: Text('Personnel & Devices (Coming Soon)')),
   ];

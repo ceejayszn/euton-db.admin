@@ -38,9 +38,10 @@ git push -u origin main
 
 ### Step B: Connect Railway to GitHub
 1. Go back to your [Railway.app](https://railway.app/) dashboard.
-2. Click **"New"** -> **"GitHub Repo"**.
-3. Select the `euton-db.admin` repository you just made.
-4. **CRITICAL STEP**: In your new Railway service, go to **Settings** -> **Service**. Look for **Root Directory** and type `/backend_api`. This tells Railway exactly where your server code is!
+   - In Railway, click **"New Project"** -> **"Deploy from GitHub repo"**.
+   - Select your new `euton-hotel-pos` repository.
+   - **CRITICAL STEP**: When it asks for the setup, go to **Settings > General** and change the **"Root Directory"** to `backend_api`. This tells Railway exactly where the server is located!
+   - Railway will start building your backend server automatically.
 
 ### Step C: Add the Secret Database Link
 1. Click on the new Backend service that Railway just created.
